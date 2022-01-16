@@ -6,6 +6,7 @@
  * @param url
  * @param method
  */
+
 function tableReload(tableId, where, contentType, url, method) {
     layui.table.reload(tableId, {
         where: where,
